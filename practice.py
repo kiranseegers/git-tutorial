@@ -37,3 +37,26 @@ print(a)
 print(100<2)
 num_children = None
 print(num_children is None)
+a = 10
+b = -5
+print(a > 0 or b > 0)
+
+
+
+message = "abc" + "def"
+print(message)
+
+name = "Alice"
+print("Hello" + name)
+
+
+name = "Alice"
+print(name is not "Bob")
+print(name == "Bob")
+print(ord("A"))
+
+approx_pi = 3.14
+s = str(approx_pi) + " is an approximation to Pi"
+print(s)
+approx_pi = 3.14
+print(int(approx_pi))
